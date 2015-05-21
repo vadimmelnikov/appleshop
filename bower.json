@@ -1,0 +1,11 @@
+{
+  "name": "apple",
+  "dependencies": {
+    "jquery": "1.11"
+  },
+  "version": "0.0.0",
+  "authors": [
+    "Vadim Melnikov <vadic_m@mail.ru>"
+  ],
+  "license": "MIT"
+}

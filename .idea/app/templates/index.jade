@@ -1,0 +1,214 @@
+doctype html 
+html
+    head
+        title Hello Word!
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        link(rel='stylesheet', href='css/style.css')
+        link(rel='stylesheet', href='fonts/stylesheet.css') 
+        link(rel='stylesheet', href='bower/normalize.css/normalize.css')
+        script(src='bower/modernizer/modernizr.js')
+    body
+        header
+            div.top-header
+                div.wrapper
+                    div.top-header__social-block
+                        ul.top-header__social-top
+                          li.vk-top
+                            a(href='#') 
+                              span.txt-none вк
+                          li.fb-top
+                            a(href='#')
+                              span.txt-none фейс
+                          li.tw-top
+                            a(href='#')
+                              span.txt-none twit
+                    div.top-header__contact-block
+                        span.adress г. Москва, ул. Новая 246, офис 214
+                    div.top-header__telephone
+                        span.code-nomber +7 (921)
+                        span.nomber 322 12 32
+            div.top-main 
+                div.wrapper
+                    div.top-main__logo
+                        a(href='#')
+                            img(src="img/logo.png" alt="logo")
+                        span.txt-none Appleshop
+                    div.top-main__search
+                        form.search-form
+                            input.top-main__search_search-input(type="text", placeholder="iMac 27 дюймов")
+                            input.top-main__search_submit-submit(type="submit", value="Поиск")
+                    div.top-main__pages
+                        ul.ul-top-page
+                            li.top-main__pages__item
+                               a(href='#') Карта проезда
+                            li.top-main__pages__item
+                               a(href='#') История заказов
+                    div.top-main__bascket
+                        span.bascket Корзина (3)
+                        ul.bascket__drop-list
+                            li.bascket__drop-list-item
+                               a(href='#')
+                                 div.img-bascket__drop-list
+                                    img.drop-list-item__img(src="img/items/img5.jpg" alt="img") 
+                                 span.drop-list-item__title iPhone 6
+                            li.bascket__drop-list-item
+                               a(href='#')
+                                 div.img-bascket__drop-list
+                                    img.drop-list-item__img(src="img/items/img6.jpg" alt="img") 
+                                 span.drop-list-item__title iPad Air Wi-Fi + Cellular 128GB - Silver
+                            li.bascket__drop-list-item
+                               a(href='#')
+                                 div.img-bascket__drop-list
+                                    img.drop-list-item__img(src="img/items/img7.jpg" alt="img") 
+                                 span.drop-list-item__title Macbook Air
+        div.header-nav
+            div.wrapper
+                nav.header-nav__navigation
+                    ul.navigation__nav-list
+                        li.navigation__nav-item
+                           a(href='#') Мобильные телефоны  
+                        li.navigation__nav-item
+                           a.navigation__nav-item-active(href='#') Планшеты
+                        li.navigation__nav-item
+                           a(href='#') Мр3 плееры
+                        li.navigation__nav-item
+                           a(href='#') Персональные компьютеры
+                        li.navigation__nav-item
+                           a(href='#') Ноутбуки
+                        li.navigation__nav-item
+                           a(href='#') Apple TV
+                        li.navigation__nav-item
+                           a(href='#') Аксессуары
+        div.container
+            div.wrapper
+                div.container__breadcrumb
+                    ul
+                        li.breadcrumb-item
+                           a(href='#') Главная
+                        li.breadcrumb-item
+                           a(href='#') Каталог
+                        li.breadcrumb-item-act
+                           span iPad Air Wi-Fi + Cellular 128GB - Silver
+                div.container__item-content
+                    div.item-content__galery
+                        div.item-content__galery-main-pic
+                            img(src="img/items/img1.jpg" alt="img")
+                        div.item-content__slider
+                            ul
+                                li
+                                    a(href='#')
+                                        img(src="img/items/img2.jpg" alt="img")
+                                li
+                                    a(href='#')
+                                        img(src="img/items/img3.jpg" alt="img")
+                                li
+                                    a(href='#')
+                                        img(src="img/items/img4.jpg" alt="img")
+                                li
+                                    a(href='#')
+                                        img(src="img/items/img2.jpg" alt="img")
+                                li
+                                    a(href='#')
+                                        img(src="img/items/img3.jpg" alt="img")
+                    div.item-content__item-info
+                        span.item-title iPad Air Wi-Fi + Cellular 128GB - Silver
+                        ul
+                            li.item-option
+                                span.item-option__option Артикул
+                                span.item-option__value 42797825
+                            li.item-option
+                                span.item-option__option Опция
+                                span.item-option__value Включена
+                            li.item-option
+                                span.item-option__option Цвет   
+                                span.item-option__value Серебристый
+                            li.item-option
+                                span.item-option__option Размер
+                                span.item-option__value 1280*1245*90
+                            li.item-option
+                                span.item-option__option Вес
+                                span.item-option__value 200 кг
+                            li.item-option
+                                span.item-option__option Артикул  
+                                span.item-option__value 42787825
+                            li.item-option
+                                span.item-option__option Опция  
+                                span.item-option__value Включена
+                            li.item-option
+                                span.item-option__option Цвет 
+                                span.item-option__value Серебристый
+                            li.item-option
+                                span.item-option__option Размер 
+                                span.item-option__value 1280*1245*90
+                            li.item-option
+                                span.item-option__option Вес
+                                span.item-option__value 200 кг
+                    div.item-content__about-shop
+                        span.item-content__title-about-shop 
+                            p Пара слов о магазине
+                        div.item-content__about-block 
+                            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. 
+                        div.item-content__about-block 
+                            p Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        div.item-content__about-block 
+                            p Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. 
+        footer
+            div.wrapper
+                div.footer__footer-logo
+                    a(href='#'): img(src="img/podvalnoe-logo.png" alt="logo-podv")
+                div.footer__footer-list
+                    span.footer-list-title О магазине
+                    ul
+                        li.footer__list-li 
+                           a(href='#') О нас
+                        li.footer__list-li 
+                           a(href='#') Наши цены
+                        li.footer__list-li 
+                           a(href='#') Наши скидки
+                        li.footer__list-li 
+                           a(href='#') Акции
+                div.footer__footer-list
+                    span.footer-list-title Каталог
+                    ul
+                        li.footer__list-li 
+                           a(href='#') Смартфоны
+                        li.footer__list-li 
+                           a(href='#') Планшеты
+                        li.footer__list-li 
+                           a(href='#') Компьютеры
+                        li.footer__list-li 
+                           a(href='#') Аксессуары
+                div.footer__footer-list
+                    span.footer-list-title Контакты
+                    ul
+                        li.footer__list-li 
+                           a(href='#') Телефоны
+                        li.footer__list-li 
+                           a(href='#') Адреса
+                        li.footer__list-li 
+                           a(href='#') Карта проезда
+                        li.footer__list-li 
+                           a(href='#') Обратная связь
+                div.footer__up-social
+                    div.footer__app-play
+                        a.app-sttory(href='#')
+                            img(src="img/appstore.png" alt="img")
+                        a.google-play(href='#')
+                            img(src="img/bascket.png" alt="img")
+                    div.footer__social
+                        ul
+                            li.footer__social-vk
+                                a(href='#')
+                            li.footer__social-fb
+                                a(href='#')
+                            li.footer__social-tw
+                                a(href='#')
+
+
+
+
+
+
+
+

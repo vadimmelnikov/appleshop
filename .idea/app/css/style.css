@@ -1,0 +1,434 @@
+/* line 2, stdin */
+.content {
+  border: 1px solid #00b9fe;
+  color: #006f98; }
+
+/* line 7, stdin */
+.border {
+  padding: 8px;
+  margin: 8px;
+  border-color: #00b9fe; }
+
+/* line 13, stdin */
+body {
+  color: #5c7b98;
+  font-size: 13px;
+  font-family: 'elektra_light_proregular';
+  min-height: 100%;
+  position: relative; }
+
+/* line 21, stdin */
+.container {
+  padding-bottom: 230px; }
+
+/* line 25, stdin */
+footer {
+  height: 230px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-top: 230px;
+  z-index: 0; }
+
+/* line 35, stdin */
+.wrapper {
+  width: 1000px;
+  margin: 0 auto; }
+
+/* line 40, stdin */
+.txt-none {
+  display: none; }
+
+/* line 44, stdin */
+.top-header {
+  background: #45626e;
+  color: #fff;
+  min-height: 40px; }
+
+/* line 50, stdin */
+.top-header__social-top {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/* line 56, stdin */
+.top-header__social-top li {
+  float: left;
+  margin-right: 6px; }
+
+/* line 61, stdin */
+.top-header__social-top li:last-child {
+  margin-right: 0; }
+
+/* line 65, stdin */
+.top-header__social-block {
+  float: left;
+  position: relative;
+  top: 7px; }
+
+/* line 72, stdin */
+.top-header__social-block:after,
+.top-header__social-top:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* line 78, stdin */
+.vk-top a {
+  background: url(../img/social.png) no-repeat;
+  background-position: 0 0;
+  overflow: hidden;
+  width: 25px;
+  height: 25px;
+  display: block; }
+
+/* line 87, stdin */
+.fb-top a {
+  background: url(../img/social.png) no-repeat;
+  background-position: -31px 0;
+  overflow: hidden;
+  width: 25px;
+  height: 25px;
+  display: block; }
+
+/* line 96, stdin */
+.tw-top a {
+  background: url(../img/social.png) no-repeat;
+  background-position: -62px 0;
+  overflow: hidden;
+  width: 25px;
+  height: 25px;
+  display: block; }
+
+/* line 105, stdin */
+.top-header__contact-block {
+  position: relative;
+  top: 3px;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center; }
+
+/* line 113, stdin */
+.top-header__contact-block:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  width: 16px;
+  height: 22px;
+  background: url(../img/mark.png) no-repeat;
+  top: 5px;
+  right: -2px;
+  margin-right: 12px; }
+
+/* line 125, stdin */
+.top-header__telephone {
+  float: right;
+  font-size: 25px;
+  position: relative;
+  top: -18px; }
+
+/* line 132, stdin */
+.code-nomber {
+  font-size: 16px;
+  color: #00b9fe;
+  vertical-align: top; }
+
+/* line 138, stdin */
+.top-main {
+  background: #dae5f0;
+  min-height: 100px; }
+
+/* line 143, stdin */
+.top-main__logo {
+  float: left;
+  width: 200px;
+  position: relative;
+  top: 25px; }
+
+/* line 150, stdin */
+.top-main__search {
+  float: left;
+  width: 368px;
+  margin-left: 50px;
+  position: relative;
+  top: 34px; }
+
+/* line 158, stdin */
+.top-main__pages {
+  float: left;
+  position: relative;
+  width: 270px;
+  top: 30px;
+  margin-left: 25px; }
+
+/* line 166, stdin */
+.top-main__bascket {
+  float: right;
+  position: relative;
+  top: 3px; }
+
+/* line 172, stdin */
+.ul-top-page {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/* line 178, stdin */
+.ul-top-page li {
+  float: left;
+  margin-right: 22px; }
+
+/* line 183, stdin */
+.top-main__search_search-input {
+  padding: 0 5px;
+  border: 1px solid #dce6f0;
+  border-right: 0;
+  height: 34px;
+  width: 250px;
+  float: left; }
+
+/* line 192, stdin */
+.top-main__search_submit-submit {
+  border: 0;
+  background: #00b9fe;
+  color: #fff;
+  font-size: 17px;
+  font-family: 'elektra_light_probold';
+  height: 35px;
+  padding: 0 15px;
+  float: left; }
+
+/* line 203, stdin */
+::-webkit-input-placeholder {
+  color: #dce6f0; }
+
+/* line 207, stdin */
+::-moz-placeholder {
+  color: #dce6f0; }
+
+/* Firefox 19+ */
+/* line 212, stdin */
+:-moz-placeholder {
+  color: #dce6f0; }
+
+/* Firefox 18- */
+/* line 217, stdin */
+:-ms-input-placeholder {
+  color: #dce6f0; }
+
+/* line 221, stdin */
+input {
+  outline: none; }
+
+/* line 225, stdin */
+.search-form {
+  float: right; }
+
+/* line 230, stdin */
+.ul-top-page,
+.ul-top-page a {
+  color: #00b9fe; }
+
+/* line 234, stdin */
+.top-main__pages__item a:hover {
+  color: #613993; }
+
+/* line 238, stdin */
+.bascket__drop-list {
+  position: absolute;
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 245px;
+  right: 0;
+  z-index: 10000; }
+
+/* line 249, stdin */
+.bascket {
+  color: #5c7b98;
+  background: #fff;
+  padding: 15px 20px;
+  padding-bottom: 5px;
+  display: block;
+  vertical-align: top; }
+
+/* line 258, stdin */
+.bascket:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  width: 22px;
+  height: 18px;
+  background: url(../img/bascket.png) no-repeat;
+  top: -2px;
+  right: 15px; }
+
+/* line 269, stdin */
+.bascket__drop-list li {
+  overflow: hidden;
+  border: 1px solid #dce6f0;
+  margin-bottom: -1px;
+  background: #fff;
+  min-height: 60px;
+  color: #00b9fe; }
+
+/* line 278, stdin */
+.bascket__drop-list li:nth-child(2n) {
+  background: #f8fafb; }
+
+/* line 282, stdin */
+.bascket__drop-list-item a {
+  padding: 10px;
+  display: block;
+  overflow: hidden; }
+
+/* line 288, stdin */
+.top-main__bascket:hover ul.bascket__drop-list {
+  display: block; }
+
+/* line 292, stdin */
+.img-bascket__drop-list {
+  float: left;
+  width: 75px; }
+
+/* line 297, stdin */
+.drop-list-item__title {
+  float: left;
+  width: 140px;
+  text-decoration: underline;
+  color: #00b9fe;
+  position: relative;
+  top: 15px; }
+
+/* line 306, stdin */
+.drop-list-item__img {
+  display: block;
+  margin: 0 auto; }
+
+/* line 311, stdin */
+.navigation__nav-list {
+  list-style: none;
+  padding: 11.5px 0;
+  margin: 0;
+  position: relative;
+  margin-left: 15px; }
+
+/* line 319, stdin */
+.header-nav {
+  background: #f7f7f7;
+  border: 1px solid #e3e3e3;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 20px; }
+
+/* line 327, stdin */
+.navigation__nav-item {
+  display: inline;
+  font-size: 15px;
+  color: #5c7b98; }
+
+/* line 333, stdin */
+.navigation__nav-item a {
+  padding: 11.5px 0px;
+  position: relative;
+  text-decoration: none;
+  color: #5c7b98;
+  margin-right: 10px;
+  padding-left: 14px;
+  padding-right: 10px; }
+
+/* line 343, stdin */
+.navigation__nav-item a:hover {
+  background: #dce6f0; }
+
+/* line 347, stdin */
+.navigation__nav-item a:hover:after {
+  content: ' ';
+  display: block;
+  height: 40px;
+  width: 16px;
+  background: url("../img/menu_right-hover.png");
+  position: absolute;
+  top: 0;
+  right: -16px; }
+
+/* line 358, stdin */
+.navigation__nav-item a:after {
+  content: ' ';
+  display: block;
+  height: 40px;
+  width: 16px;
+  background: url("../img/arrow.png");
+  position: absolute;
+  top: 0;
+  right: -16px; }
+
+/* line 369, stdin */
+.navigation__nav-item a:hover:before {
+  content: ' ';
+  display: block;
+  height: 40px;
+  width: 16px;
+  background: url("../img/menu_left-hover.png");
+  position: absolute;
+  top: 0;
+  left: -15px; }
+
+/* line 380, stdin */
+.navigation__nav-item-active {
+  background: #00b9fe; }
+
+/* line 384, stdin */
+a.navigation__nav-item-active {
+  color: #fff; }
+
+/* line 388, stdin */
+.navigation__nav-item-active:before {
+  content: ' ';
+  display: block;
+  height: 40px;
+  width: 16px;
+  background: url("../img/menu_left-active.png");
+  position: absolute;
+  top: 0;
+  left: -16px; }
+
+/* line 399, stdin */
+.header-nav .navigation__nav-item-active:after {
+  content: ' ';
+  display: block;
+  height: 40px;
+  width: 16px;
+  background: url("../img/menu_right-active.png");
+  position: absolute;
+  top: 0;
+  right: -16px; }
+
+/* line 410, stdin */
+.navigation__nav-item:last-child .navigation__nav-item a:after {
+  background: none; }
+
+/* line 414, stdin */
+.container__breadcrumb ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/* line 420, stdin */
+.container__breadcrumb ul li {
+  display: inline;
+  margin-right: 5px;
+  font-size: 14px; }
+
+/* line 426, stdin */
+.container__breadcrumb ul a {
+  color: #00b9fe; }
+
+/* line 430, stdin */
+.container__breadcrumb ul .breadcrumb-item:after {
+  content: '>';
+  position: relative;
+  right: -5px;
+  font-size: 10px; }
